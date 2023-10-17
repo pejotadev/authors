@@ -1,0 +1,15 @@
+POST http://localhost:8111/api/authors HTTP/1.1
+
+{
+  "name": "John Doe",
+  "email": "john@john.ng",
+  "twitter": "yemiwebby",
+  "github": "yemiwebby",
+  "location": "Nigeria",
+  "latest_article_published": "Auth0_laravel"
+}
+
+
+####
+GET http://localhost:8111/ HTTP/1.1
+
